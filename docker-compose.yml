@@ -1,3 +1,12 @@
+# Requires the following variables to be added to a .env file
+# MYSQL_HOST=db2
+# MYSQL_DATABASE=emoncms
+# MYSQL_USER=emoncms
+# MYSQL_PASSWORD=YOUR_SECURE_PASSWORD
+# MYSQL_RANDOM_ROOT_PASSWORD=yes
+#
+#
+#
 version: '2'
 services:
   web:
